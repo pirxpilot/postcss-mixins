@@ -1,15 +1,13 @@
 {
-  "name": "@csstools/postcss-mixins",
-  "version": "1.0.0",
+  "name": "@pirxpilot/postcss-mixins",
+  "version": "0.0.0",
   "description": "Use mixins in CSS",
   "keywords": [
     "postcss-plugin"
   ],
-  "homepage": "https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-mixins#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csstools/postcss-plugins.git",
-    "directory": "plugins/postcss-mixins"
+    "url": "git+https://github.com/pirxpilot/postcss-mixins.git"
   },
   "funding": [
     {
@@ -42,7 +40,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "node.test"
+    "test": "make check"
   },
   "dependencies": {
     "@csstools/css-parser-algorithms": "^4.0.0",
@@ -57,14 +55,5 @@
   },
   "engines": {
     "node": ">=20.19.0"
-  },
-  "volta": {
-    "extends": "../../package.json"
-  },
-  "csstools": {
-    "cssdbId": "mixins",
-    "exportName": "postcssMixins",
-    "humanReadableName": "PostCSS Mixins",
-    "specUrl": "https://drafts.csswg.org/css-mixins/#mixin-rule"
   }
 }
