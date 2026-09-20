@@ -1,0 +1,20 @@
+@mixin --font() {
+  font-size: 12px;
+}
+
+@mixin --foo() {
+  color: green;
+  &:not(.other) {
+    background: red;
+    @apply --font;
+  }
+}
+
+@mixin --bar() {
+  padding: 0;
+  @apply --foo;
+}
+
+.bar {
+  @apply --bar;
+}

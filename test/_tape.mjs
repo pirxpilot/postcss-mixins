@@ -5,6 +5,9 @@ postcssTape(plugin)({
   basic: {
     message: 'supports basic usage'
   },
+  nested: {
+    message: 'supports nested mixins'
+  },
   'basic:preserve-true': {
     message: 'supports basic usage with { preserve: true }',
     options: {
