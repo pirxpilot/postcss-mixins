@@ -1,0 +1,8 @@
+.bar {
+  padding: 0;
+  color: green;
+  &:not(.other) {
+    background: red;
+  font-size: 12px;
+  }
+}
